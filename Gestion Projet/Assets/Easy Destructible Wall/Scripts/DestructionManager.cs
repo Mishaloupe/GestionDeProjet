@@ -31,7 +31,7 @@ namespace EasyDestuctibleWall {
                     Rigidbody spawnRB = child.gameObject.AddComponent<Rigidbody>();
                     child.parent = null;
                     // Transfer velocity
-                    spawnRB.linearVelocity = GetComponent<Rigidbody>().GetPointVelocity(child.position);
+                    spawnRB.velocity = GetComponent<Rigidbody>().GetPointVelocity(child.position);
                     // Transfer torque
                     spawnRB.AddTorque(GetComponent<Rigidbody>().angularVelocity, ForceMode.VelocityChange);
                 }

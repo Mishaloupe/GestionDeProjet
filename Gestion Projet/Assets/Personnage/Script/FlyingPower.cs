@@ -56,7 +56,7 @@ public class FlyOnCollision : MonoBehaviour
             if (Input.GetKey(KeyCode.LeftShift)) moveY = -1f;
 
             Vector3 moveDirection = new Vector3(moveX, moveY, moveZ).normalized;
-            rb.linearVelocity = moveDirection * flySpeed;
+            rb.velocity = moveDirection * flySpeed;
         }
     }
 }

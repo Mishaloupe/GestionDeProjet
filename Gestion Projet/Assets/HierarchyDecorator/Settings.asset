@@ -1494,19 +1494,6 @@ MonoBehaviour:
         isBuiltIn: 1
         script: {fileID: 0}
         hasToggle: 1
-      - displayName: DisallowGPUDrivenRendering
-        name: UnityEngine.Rendering.DisallowGPUDrivenRendering, Unity.RenderPipelines.GPUDriven.Runtime,
-          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-          m_TextWithWhitespace: 
-        shown: 0
-        excluded: 0
-        isBuiltIn: 1
-        script: {fileID: 0}
-        hasToggle: 1
       - displayName: DropdownItem
         name: UnityEngine.UI.Dropdown+DropdownItem, UnityEngine.UI, Version=1.0.0.0,
           Culture=neutral, PublicKeyToken=null
@@ -1549,19 +1536,6 @@ MonoBehaviour:
       - displayName: FlareLayer
         name: UnityEngine.FlareLayer, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
           PublicKeyToken=null
-        content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-          m_TextWithWhitespace: 
-        shown: 0
-        excluded: 0
-        isBuiltIn: 1
-        script: {fileID: 0}
-        hasToggle: 1
-      - displayName: FrameTimeMeasurement
-        name: Unity.PerformanceTesting.Measurements.FrameTimeMeasurement, Unity.PerformanceTesting,
-          Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
         content:
           m_Text: 
           m_Image: {fileID: 0}
@@ -1793,19 +1767,6 @@ MonoBehaviour:
         isBuiltIn: 1
         script: {fileID: 0}
         hasToggle: 1
-      - displayName: MultiplayerRolesData
-        name: UnityEngine.MultiplayerRolesData, UnityEngine.MultiplayerModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-          m_TextWithWhitespace: 
-        shown: 0
-        excluded: 0
-        isBuiltIn: 1
-        script: {fileID: 0}
-        hasToggle: 0
       - displayName: OcclusionArea
         name: UnityEngine.OcclusionArea, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
@@ -1874,19 +1835,6 @@ MonoBehaviour:
       - displayName: ParticleSystemForceField
         name: UnityEngine.ParticleSystemForceField, UnityEngine.ParticleSystemModule,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-          m_TextWithWhitespace: 
-        shown: 0
-        excluded: 0
-        isBuiltIn: 1
-        script: {fileID: 0}
-        hasToggle: 1
-      - displayName: PerformanceTestHelper
-        name: Unity.PerformanceTesting.PerformanceTestHelper, Unity.PerformanceTesting,
-          Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
         content:
           m_Text: 
           m_Image: {fileID: 0}
@@ -1988,19 +1936,6 @@ MonoBehaviour:
         isBuiltIn: 1
         script: {fileID: 0}
         hasToggle: 1
-      - displayName: ProbeAdjustmentVolume
-        name: UnityEngine.Rendering.ProbeAdjustmentVolume, Unity.RenderPipelines.Core.Runtime,
-          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-          m_TextWithWhitespace: 
-        shown: 0
-        excluded: 0
-        isBuiltIn: 1
-        script: {fileID: 0}
-        hasToggle: 1
       - displayName: ProbeTouchupVolume
         name: UnityEngine.Rendering.ProbeTouchupVolume, Unity.RenderPipelines.Core.Runtime,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -2030,19 +1965,6 @@ MonoBehaviour:
       - displayName: ProbeVolumePerSceneData
         name: UnityEngine.Rendering.ProbeVolumePerSceneData, Unity.RenderPipelines.Core.Runtime,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-          m_TextWithWhitespace: 
-        shown: 0
-        excluded: 0
-        isBuiltIn: 1
-        script: {fileID: 0}
-        hasToggle: 1
-      - displayName: ProfilerMarkerMeasurement
-        name: Unity.PerformanceTesting.Measurements.ProfilerMarkerMeasurement, Unity.PerformanceTesting,
-          Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
         content:
           m_Text: 
           m_Image: {fileID: 0}
@@ -3749,19 +3671,6 @@ MonoBehaviour:
         isBuiltIn: 1
         script: {fileID: 0}
         hasToggle: 0
-      - displayName: DisallowSmallMeshCulling
-        name: UnityEngine.Rendering.DisallowSmallMeshCulling, Unity.RenderPipelines.GPUDriven.Runtime,
-          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-          m_TextWithWhitespace: 
-        shown: 0
-        excluded: 0
-        isBuiltIn: 1
-        script: {fileID: 0}
-        hasToggle: 1
       - displayName: LineRenderer
         name: UnityEngine.LineRenderer, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
@@ -4288,5 +4197,5 @@ MonoBehaviour:
     allCustomComponents:
       name: All
       components: []
-    unityVersion: 6000.0.41f1
-    unityCount: 306
+    unityVersion: 2023.2.20f1
+    unityCount: 299
